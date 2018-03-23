@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="tuomomees.sauli_soundboard_app.MainActivity"
+android:background="@drawable/background_image"
+>
+
+<TableLayout>
+    <TableRow
+        android:gravity="end">
+        <Button
+            android:layout_margin="30sp"
+            android:id="@+id/buttonAbout"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@android:drawable/ic_dialog_info"
+            android:onClick="onAboutButtonClicked" />
+    </TableRow>
+</TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+            <TextView
+                style="@style/TextViewStyle"
+                android:id="@+id/bainPhraseTextView" />
+    </TableLayout>
+
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp">
+            <ListView
+                android:layout_gravity="center"
+                android:background="@drawable/dialog_background_drawable"
+                android:id="@+id/buttonListView">
+            </ListView>
+        </TableRow>
+
+</TableLayout>

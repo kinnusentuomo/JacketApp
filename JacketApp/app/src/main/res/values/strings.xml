@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jacket App</string>
+    <string name="about_text">This app is made by Tuomo Kinnunen (tuomomees App Lab) 2018.  If you have something on your mind please use feedback button. \n\n*If you want to share or use audio as ringtone/notification sound: listen it first, long press and there will be a popup menu. You have to grant permissions for it first.</string>
+    <string name="closebutton_text">Close</string>
+    <string name="donatebutton_text">Donate</string>
+    <string name="feedbackbutton_text">Feedback</string>
+    <string name="support_text">Thank you for your support!</string>
+    <string name="notsupport_text">Maybe you should support next time.</string>
+    <string name="feedback_address">feedback.tuomomees.applab@gmail.com</string>
+    <string name="feedback_template">I loved ____ in this app but _____ could be better.\n</string>
+    <string name="choose_feedback_delivering">I am going to send feedback with.</string>
+    <string name="share_audio_text">Share audio via.</string>
+    <string name="share_audio_error_text">Can not share audio, please try again.</string>
+    <string name="dialog_menu_label">How you want to use audio</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="notification_sound">Notification sound</string>
+    <string name="share">Share</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="is_going_to_be_your_ringtone">is going to be your ringtone.</string>
+    <string name="is_going_to_be_your_notification">is going to be your notification sound.</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="FullScreenAd">ca-app-pub-4117339910887954/8852885298</string>
+</resources>
